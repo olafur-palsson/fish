@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body style="background-color: rgb(0.9, 0.9, 0.9);">
+  <p id="text" style="color:white;">
+    Thetta tekur sma tima ad loada, sidan verdur madur ad gefa strakunum <br/>
+    sma tima til ad syna hvad their geta.
+  </p>
+
+  <div style="position: relative;">
+    <canvas id="canvas" width="1200" height="800"
+    style=""></canvas>
+  </div>
+  <script src="bundle.js"> </script>
+  <script>
+    let p = document.getElementById('text') 
+    setTimeout(() => {
+      p.innerHTML = 'click n drag er enabled!!!!!!!!!!!!!!!!!!!!! :)'
+    }, 30000)
+  </script>
+
+</body>
+</html>
